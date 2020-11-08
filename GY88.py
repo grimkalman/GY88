@@ -45,7 +45,7 @@ if __name__ == "__main__":
     
     # Calibrate sensors
     imu.mpu.calibrate()
-#     imu.mmc.calibrate()
+    imu.mmc.calibrate()
 
     # Initial attitude, magnetic reference and timestep
     attitude, dt = [0.0, 0.0, 0.0], 0.01
